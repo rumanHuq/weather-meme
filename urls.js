@@ -1,0 +1,2 @@
+const weatherAPI = 'http://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=a9ccbff347e72cd2c8fd7d61d5eabc27'
+const giphy = 'http://api.giphy.com/v1/gifs/search?q=funny+cat&api_key=dc6zaTOxFJmzC'

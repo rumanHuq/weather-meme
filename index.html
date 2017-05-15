@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+<!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">-->
+  <link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
+  <style>
+  * {
+    font-family: 'Baloo', cursive;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  #canvas {
+    position: relative;
+  }
+  .content {
+    margin: auto;
+    position: absolute;
+    color: white;
+  }
+
+  .top {
+    text-align: center;
+    width: inherit;
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    background: rgba(0,0,0,0.5)
+  }
+  .bottom {
+    text-align: center;
+    width: inherit;
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    background: rgba(0,0,0,0.5)
+  }
+  .center {
+    text-align: center;
+    width: inherit;
+    position: absolute;
+    display: inline-block;
+    bottom: 30%
+  }
+  </style>
+</head>
+<body>
+  <canvas id="canvas"></canvas>
+  <div class="content">
+      <div class="top">TOP</div>
+      <div class="center">Center</div>
+      <div class="bottom">BOTTOM</div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
